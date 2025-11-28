@@ -1,4 +1,4 @@
-# 🌊 ZenTab - Liquid Glass New Tab
+# ZenTab - Liquid Glass New Tab
 
 <div align="center">
 
@@ -9,7 +9,9 @@
 A minimal, highly customizable New Tab page with a premium **Liquid Glass** aesthetic.  
 Beautiful, functional, and privacy-focused.
 
-[Features](#-features) • [Setup](#-setup) • [Customization](#-customization) • [Development](#-development)
+[![Firefox Add-on](https://img.shields.io/badge/Firefox-Download-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/it/firefox/addon/zentab/)
+
+[Features](#features) • [Setup](#setup) • [Customization](#customization) • [Development](#development)
 
 </div>
 
@@ -17,86 +19,108 @@ Beautiful, functional, and privacy-focused.
 
 ## ✨ Features
 
-### 🧩 Widgets
+### Core Widgets
 
 | Widget | Description |
 |--------|-------------|
-| **⏰ Clock** | Precise digital clock with 5 styles: Default, Minimal, Bold, Liquid, Neon |
-| **📖 Literature Clock** | Displays iconic F1 driver quotes |
-| **🌤️ Weather** | Real-time weather with temp, wind, humidity (no API key needed) |
-| **📝 Notes** | Auto-saving notepad with copy/clear functions |
-| **✅ ToDo List** | Simple task manager for daily goals |
-| **🏎️ Racing Calendar** | F1 race sessions (FP1, Quali, Race) with live countdowns |
-| **🌐 IP Info** | Public IP, location, and ISP details |
-| **🍅 Pomodoro** | Customizable focus timer for productivity |
+| **⏰ Clock** | Precision digital clock with 5 distinct styles: Default, Minimal, Bold, Liquid, Neon |
+| **📖 Literature Clock** | Displays iconic F1 driver quotes synchronized with current time |
+| **🌤️ Weather** | Real-time weather data including temperature, wind speed, and humidity (no API key required) |
+| **📝 Notes** | Auto-saving notepad with copy and clear functionality |
+| **✅ ToDo List** | Task management system for daily goal tracking |
+| **🏎️ Racing Calendar** | Complete F1 schedule with practice sessions, qualifying, and race countdowns |
+| **🌐 IP Information** | Network details including public IP address, geolocation, and ISP provider |
+| **🍅 Pomodoro Timer** | Customizable focus timer with work/break intervals for enhanced productivity |
+| **🔗 Quick Links** | User-defined shortcuts for frequently accessed websites and services |
 
-### 🎨 Customization
+### 🎨 Customization Options
 
-- **🌓 Themes**: Light, Dark, and AMOLED (pure black) modes
-- **🎯 Layout**: Fully draggable and resizable widgets (Edit Mode)
-- **🖼️ Background**: Upload images or use custom URLs
-- **💎 Blur Effect**: Adjustable glassmorphism blur strength (0-50px)
-- **🎨 Custom CSS**: Inject your own styles for advanced customization
-- **🌍 Language**: English 🇬🇧 and Italian 🇮🇹 support
+- **Theme System**: Light, Dark, and AMOLED (pure black) display modes
+- **Dynamic Layout**: Fully draggable and resizable widgets via Edit Mode
+- **Background Control**: Custom image upload or external URL integration
+- **Glassmorphism Effects**: Adjustable blur intensity from 0 to 50 pixels
+- **Custom CSS Injection**: Advanced styling capabilities for power users
+- **Multilingual Support**: Available in English 🇬🇧 and Italian 🇮🇹
 
 ### 🔒 Privacy & Performance
 
-✅ **No Tracking** - Zero analytics or data collection  
-✅ **Local Storage** - All settings saved locally in your browser  
-✅ **Lightweight** - Built with Vanilla JavaScript for maximum speed  
-✅ **Open Source** - Fully transparent and customizable  
+- **Zero Tracking** - No analytics, telemetry, or data collection
+- **Local Storage** - All preferences and data stored exclusively in browser
+- **Optimized Performance** - Built with Vanilla JavaScript for minimal overhead
+- **Open Source** - Fully transparent codebase available for audit and modification
 
 ---
 
 ## 🚀 Setup
 
-1. **Install** the extension in your browser (Chrome/Edge/Firefox)
-2. **Open a new tab** - ZenTab automatically replaces your default new tab page
-3. **Click the ⚙️ Settings icon** (bottom right) to customize widgets, themes, and more
+### Installation
+
+1. Install the extension from your browser's extension store (Chrome Web Store, Edge Add-ons, or Firefox Add-ons)
+2. Open a new tab to activate ZenTab automatically
+3. Access Settings via the gear icon (bottom right) to configure widgets and preferences
+
+### Quick Start
+
+- Toggle widgets on/off from the Settings panel
+- Enable Edit Mode to reposition and resize widgets
+- Add Quick Links for instant access to your most-used websites
+- Customize appearance through theme selection and blur effects
 
 ---
 
 ## 🛠️ Development
 
+### Project Structure
 ```
 ZenTab/
-├── index.html        # Main structure
+├── index.html          # Application entry point
 ├── css/
-│   └── styles.css    # Styles and variables
+│   └── styles.css      # Styling and CSS variables
 ├── js/
-│   ├── app.js        # Widget logic and state management
-│   └── icons.js      # SVG icon definitions
-├── assets/           # Icons and images
-└── manifest.json     # Extension configuration
+│   ├── app.js          # Core logic and state management
+│   └── icons.js        # SVG icon registry
+├── assets/             # Static resources (icons, images)
+└── manifest.json       # Browser extension configuration
 ```
 
-### Tech Stack
-- **HTML5** - Semantic structure
-- **CSS3** - Glassmorphism effects and animations
-- **Vanilla JavaScript** - No frameworks, pure performance
-- **ES6 Modules** - Modern, maintainable code
+### Technology Stack
+
+- **HTML5** - Semantic markup structure
+- **CSS3** - Advanced glassmorphism effects and animations
+- **Vanilla JavaScript** - Framework-free implementation for optimal performance
+- **ES6 Modules** - Modern, maintainable architecture
+
+### Building from Source
+
+1. Clone the repository
+2. Load as unpacked extension in your browser's developer mode
+3. Modify source files as needed
+4. Reload extension to apply changes
 
 ---
 
 ## 🎯 Credits
 
-- **Fonts**: [Inter](https://fonts.google.com/specimen/Inter) by Google Fonts
-- **Weather API**: [Open-Meteo](https://open-meteo.com/) - Free weather data
-- **IP API**: [ipapi](https://ipapi.co/) - Geolocation service
-- **Racing Data**: [Jolpica F1](https://jolpi.ca/) - F1 calendar and results
+### External Services
+
+- **Typography**: [Inter](https://fonts.google.com/specimen/Inter) typeface by Google Fonts
+- **Weather Data**: [Open-Meteo](https://open-meteo.com/) - Free meteorological API
+- **IP Geolocation**: [ipapi](https://ipapi.co/) - Network information service
+- **Racing Calendar**: [Jolpica F1](https://jolpi.ca/) - Formula 1 schedule and results
 
 ---
 
 ## 📄 License
 
-MIT License - Feel free to use and modify!
+Released under the MIT License.  
+See LICENSE file for full terms and conditions.
 
 ---
 
 <div align="center">
 
-**Made with passion by Robert Ciobanu** 🚀
+**Developed by Robert Ciobanu** 🚀
 
-⭐ Star this project if you like it!
+⭐ Star this project on GitHub if you find it useful
 
 </div>
