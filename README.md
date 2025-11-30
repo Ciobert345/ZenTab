@@ -32,6 +32,7 @@ Beautiful, functional, and privacy-focused.
 | **🌐 IP Information** | Network details including public IP address, geolocation, and ISP provider |
 | **🍅 Pomodoro Timer** | Customizable focus timer with work/break intervals for enhanced productivity |
 | **🔗 Quick Links** | User-defined shortcuts for frequently accessed websites and services |
+| **💾 Backup & Restore** | Export your settings to a file or import them on another device |
 
 ### 🎨 Customization Options
 
@@ -41,6 +42,7 @@ Beautiful, functional, and privacy-focused.
 - **Glassmorphism Effects**: Adjustable blur intensity from 0 to 50 pixels
 - **Custom CSS Injection**: Advanced styling capabilities for power users
 - **Multilingual Support**: Available in English 🇬🇧 and Italian 🇮🇹
+- **Settings Backup**: Easily export your configuration for backup or transfer between devices
 
 ### 🔒 Privacy & Performance
 
@@ -65,6 +67,7 @@ Beautiful, functional, and privacy-focused.
 - Enable Edit Mode to reposition and resize widgets
 - Add Quick Links for instant access to your most-used websites
 - Customize appearance through theme selection and blur effects
+- Export your settings for backup or to transfer them to another device
 
 ---
 
