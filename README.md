@@ -1,4 +1,4 @@
-# ZenTab - Liquid Glass New Tab
+# ZenTab 
 
 <div align="center">
 
